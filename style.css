@@ -8,18 +8,15 @@ body{
 }
 
 header {
-  /* border: 2px solid red; */
   width: 100%;
   max-width: 1200px;
   height: 50px;
-  /* text-align: right; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
   margin: 0 auto;
   box-sizing: border-box;
-  /* border-bottom: 1px solid gray; */
   border-bottom: 1px solid;
   border-image: linear-gradient(45deg, transparent, #d7d6da, transparent) 1;
 }
@@ -43,7 +40,6 @@ header {
 .social-item a {
   text-decoration: none;
   padding: 8px;
-  /* border: 1px solid green; */
 }
 
 .logo {
@@ -52,7 +48,6 @@ header {
 }
 
 main {
-  /* border: 1px solid red; */
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -81,7 +76,6 @@ h2 b {
 
 .email {
   margin: 0;
-  /* font-style: italic; */
   font-size: 18px;
   display: inline-flex;
   align-items: center;
@@ -111,11 +105,11 @@ h2 b {
 }
 
 img {
-  width: 500px;
+  width: 400px;
   border-radius: 50%;
   position: absolute;
-  top: calc(50% - 250px);
-  right: calc(40% - 500px);
+  top: calc(50% - 200px);
+  right: calc(45% - 500px);
   z-index: -1;
 }
 
