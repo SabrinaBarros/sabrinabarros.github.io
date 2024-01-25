@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto';
   background: #f5f5f5;
@@ -5,6 +9,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 /* HEADER */
@@ -12,24 +17,24 @@ body {
 header {
   width: 100%;
   /* max-width: 2300px; */
-  height: 50px;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 50px;
+  padding: 10px 15px;
   box-sizing: border-box;
-  margin: 0 auto;
-  /* background: #fff; */
-  /* border-bottom: 1px solid; */
-  /* border-image: linear-gradient(45deg, transparent, #d7d6da, transparent) 1; */
+  flex-wrap: wrap;
 }
 
 .logo {
   font-family: 'Unbounded', cursive;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px;
   font-weight: bold;
+  font-weight: normal;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000;
+  /* margin: 12px; */
 }
 
 /* MENU */
@@ -42,8 +47,7 @@ header {
   font-size: 14px;
   text-transform: uppercase;
   list-style: none;
-  /* font-family: "Roboto Mono", monospace; */
-  /* font-weight: bold; */
+  margin: 12px;
 }
 
 .menu__item {
@@ -73,22 +77,30 @@ header {
 
 /* SOCIAL */
 
-.social-item {
-  padding: 0 8px;
+.social-list {
+  margin: 12px;
+  padding: 0;
+  /* vertical-align: center; */
 }
-
-.social-item a {
-  text-decoration: none;
-  height: 30px;
-  width: 30px;
-}
-
-/* MENU E SOCIAL */
 
 .social-item {
   display: inline;
   list-style: none;
+  padding: 0 8px;
+  /* vertical-align: center;
+  text-align: center; */
 }
+
+.social-item a {
+  text-decoration: none;
+  height: 24px;
+  width: 24px;
+  /* vertical-align: center;
+  text-align: center; */
+}
+
+/* MENU E SOCIAL */
+
 
 /* MAIN */
 
@@ -160,4 +172,48 @@ footer {
   font-weight: bold;
   font-weight: normal;
   font-family: 'Unbounded', cursive;
+}
+
+@media screen and (max-width: 790px) {
+
+  /* header {
+    justify-content: space-between;
+  } */
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-item {
+    padding: 0 4px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+
+  header {
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+  .menu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .menu li a {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .social-list {
+    margin-top: 22px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .social-item {
+    padding: 0 3vw;
+  }
 }
