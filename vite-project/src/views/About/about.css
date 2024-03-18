@@ -1,0 +1,161 @@
+.main {
+  height: 100%;
+  max-height: 600px;
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+  margin: 32px auto;
+  padding: 16px;
+
+  position: relative;
+}
+
+/* TIPOGRAPH */
+
+.main__h1, .main__h2 {
+  display: block;
+  margin: 0 8px;
+  padding: 8px;
+}
+
+.main__h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.main__h2 {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+b {
+  color: #6653e4;
+}
+
+.about-container {
+  padding: 16px;
+}
+
+.main__about-me {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+
+  padding: 0;
+  margin: 0;
+
+  width: 100%;
+  max-width: 580px;
+  line-height: 28px;
+}
+
+/* PICTURE */
+
+.main__profile-picture {
+  width: 380px;
+  height: 380px;
+
+  z-index: -1;
+  position: absolute;
+
+  right: 40px;
+  top: calc(50% - 230px);
+
+  margin: 16px;
+  margin-top: 32px;
+
+  border-radius: 50%;
+  box-shadow: 30px 5px #6653e4;
+}
+
+/* BUTTON */
+
+.main__button, .main__button__link {
+  padding: 20px 32px;
+}
+
+.main__button {
+  margin: 16px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+
+  background: #6653e4;
+  border: none;
+  border-radius: 100px;
+
+  transition: background 1s ease; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 20px;
+}
+
+.main__button__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main__button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.1));
+}
+
+.main__button:active {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.1));
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 805px) {
+
+  .social-item {
+    padding: 0 4px;
+  }
+
+}
+
+@media screen and (max-width: 515px) {
+
+  .social-list {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .social-item {
+    padding: 0 3vw;
+  }
+
+  .main__h1 {
+    font-size: 25px;
+  }
+
+  .main__h2 {
+    font-size: 35px;
+  }
+
+  .main__profile-picture {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+  .main__profile-picture {
+    position: static;
+  }
+
+  .main {
+    align-items: center;
+    text-align: center;
+
+    height: auto;
+    max-height: none;
+  }
+
+}

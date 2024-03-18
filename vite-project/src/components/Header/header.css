@@ -126,17 +126,4 @@ b {
     padding: 0 3vw;
   }
 
-  .main__h1 {
-    font-size: 25px;
-  }
-
-  .main__h2 {
-    font-size: 35px;
-  }
-
-  .main__profile-picture {
-    width: 200px;
-    height: 200px;
-  }
-
 }
