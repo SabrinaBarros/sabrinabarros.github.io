@@ -1,0 +1,33 @@
+.link {
+  display: inline-flex;
+
+  color: #fff;
+  text-decoration: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+
+  background: #333;
+
+  padding: 8px 12px;
+  margin: 0 4px;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, transparent, #0000001a);
+}
+
+.link:active {
+  background-image: linear-gradient(to bottom, #0000001a, #0000001a);
+}
+
+.link__svg {
+  margin: 0 0 0 4px;
+}
+
+.link--live-demo {
+  background: #6653e4;
+  border: none;
+}

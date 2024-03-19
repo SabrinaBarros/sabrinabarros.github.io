@@ -13,7 +13,6 @@
   padding: 16px;
 
   position: relative;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 980px) {
@@ -133,7 +132,7 @@ b {
   border-radius: 100px;
 
   transition: background 1s ease; 
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 20px;
+  box-shadow: #00000059 0px 8px 20px;
 }
 
 .main__button__link {
@@ -143,11 +142,11 @@ b {
 
 .main__button:hover {
   cursor: pointer;
-  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.1));
+  background-image: linear-gradient(to bottom, transparent, #0000001a);
 }
 
 .main__button:active {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.1));
+  background-image: linear-gradient(to bottom, #0000001a, #0000001a);
 }
 
 /* MOBILE */
