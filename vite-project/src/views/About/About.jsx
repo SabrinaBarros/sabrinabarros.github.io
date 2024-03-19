@@ -4,12 +4,12 @@ const About = () => {
 
   return (
     <>
-      <main className="main">
+      <main className="about">
 
         <div>
           <h1 className="main__h1">Oi! 👾 Me Chamo Sabrina, sou:</h1>
 
-          <img className="main__profile-picture" src="profilePicture.jpg" alt="Foto de perfil da Sabrina"/>
+          <img className="main__profile-picture" src="img/profilePicture.jpg" alt="Foto de perfil da Sabrina"/>
 
           <h2 className="main__h2"><b>Software Developer</b></h2>
         </div>
