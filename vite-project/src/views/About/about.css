@@ -62,7 +62,7 @@ b {
 }
 
 .about-container {
-  padding: 16px;
+  padding-left: 16px;
 }
 
 .main__about-me {
@@ -70,12 +70,30 @@ b {
   font-size: 14px;
   font-weight: 500;
 
-  padding: 0;
+  padding: 16px;
   margin: 0;
 
   width: 100%;
-  max-width: 580px;
-  line-height: 28px;
+  max-width: 620px;
+  line-height: 26px;
+}
+
+.contact-me {
+  background-color: #fff;
+  padding: 16px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  /* border: 1px solid red; */
+  line-height: 24px;
+}
+
+.contact-me-text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.email {
+  font-style: italic;
 }
 
 /* PICTURE */
@@ -112,41 +130,6 @@ b {
     height: 200px;
   }
 
-}
-
-/* BUTTON */
-
-.main__button, .main__button__link {
-  padding: 20px 32px;
-}
-
-.main__button {
-  margin: 16px;
-
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-
-  background: #6653e4;
-  border: none;
-  border-radius: 100px;
-
-  transition: background 1s ease; 
-  box-shadow: #00000059 0px 8px 20px;
-}
-
-.main__button__link {
-  text-decoration: none;
-  color: #fff;
-}
-
-.main__button:hover {
-  cursor: pointer;
-  background-image: linear-gradient(to bottom, transparent, #0000001a);
-}
-
-.main__button:active {
-  background-image: linear-gradient(to bottom, #0000001a, #0000001a);
 }
 
 /* MOBILE */

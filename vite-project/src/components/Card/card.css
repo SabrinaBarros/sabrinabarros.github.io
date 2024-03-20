@@ -36,18 +36,20 @@
 }
 
 .card__title {
-  color: #000;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
   text-align: center;
 
-  margin: 8px;
-  margin-bottom: 16px;
+  margin: 16px 8px;
+  /* margin-bottom: 16px; */
 
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
 }
 
 .card__img {
   width: 100%;
+  margin-top: 8px;
 }
 
 .card__tag {
@@ -91,6 +93,7 @@
   font-family: "Montserrat", sans-serif;
 
   margin: 8px;
+  margin-bottom: 20px;
   padding: 8px;
 }
 

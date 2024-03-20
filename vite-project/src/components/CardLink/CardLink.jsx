@@ -6,7 +6,7 @@ const CardLink = ({gitHubURL, demoURL}) => {
 
   const linkText = demoURL ? 'Live Demo' : 'Code'
   const liveDemoClass = demoURL && 'link--live-demo'
-  const icon = demoURL ? <img src={externalLinkIcon} class="link__svg"/> : <img src={gitHubIcon} class="link__svg"/>
+  const icon = demoURL ? <img src={externalLinkIcon} className="link__svg"/> : <img src={gitHubIcon} className="link__svg"/>
   const url = demoURL ? demoURL : gitHubURL
 
   return (

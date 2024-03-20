@@ -1,4 +1,5 @@
 import './about.css'
+import CopyToClipboard from '../../components/CopyToClipboard/CopyToClipboard.jsx'
 
 const About = () => {
 
@@ -14,15 +15,15 @@ const About = () => {
           <h2 className="main__h2"><b>Software Developer</b></h2>
         </div>
 
-        <div className="about-container">
-          <p className="main__about-me">Desenvolvedora de 21 anos, residente no estado de São Paulo.</p>
-          <p className="main__about-me">Com 3 anos de experiência, trago a solidez técnica do back-end para criar interfaces front-end intuitivas e esteticamente agradáveis.</p>
-          <p className="main__about-me">Estou aberta para novas propostas e sempre disposta a novos desafios!</p>
-        </div>
+          <p className="main__about-me">
+              Tenho 21 anos de idade e atualmente moro em São Paulo - SP.<br/>
+              Após minha experiência de 2 anos construindo <b>APIs</b> com <b>Node.js</b> e <b>testes automatizados</b>, resolvi migrar para a área de <b>Front-End</b>, onde crio Apps utilizando o ecossistema <b>React</b> e claro, sempre seguindo boas práticas de documentação e <b>metodologias ágeis</b>.
+          </p>
 
-        <button className="main__button">
-          <a className="main__button__link" href="https://www.linkedin.com/in/saazbarros/" target="_blank">Entre em Contato</a>
-        </button>
+          <p className="contact-me">
+            <b className="contact-me-text">Se interessou pelo meu trabalho?</b><br/>
+            Envie um email para <span className='email'>sabrina.barros2045@gmail.com</span> <CopyToClipboard text="sabrina.barros2045@gmail.com"/>
+          </p>
 
       </main>
     </>

@@ -16,7 +16,7 @@ const Projects = () => {
       />
 
       <Card
-        name="React Tomato"
+        name="React Pomodoro"
         imagePath="img/projects/pomodoroTimer.png"
         tag="app"
         gitHubURL="https://github.com/SabrinaBarros/pomodoroTimer?tab=readme-ov-file"
@@ -38,7 +38,7 @@ const Projects = () => {
         imagePath="img/projects/kadabra.png"
         tag="cli"
         gitHubURL="https://github.com/SabrinaBarros/kadabra"
-        description="Projeto que utiliza a Cifra Vigenere para criptografar textos e senhas. É fácil de usar e fornece uma maneira segura de proteger informações confidenciais."
+        description="Ferramenta que utiliza a Cifra Vigenere para criptografar textos e senhas."
       />
 
     </main>

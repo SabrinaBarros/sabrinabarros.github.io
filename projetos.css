@@ -82,10 +82,6 @@ body {
   width: 100%;
 }
 
-.card__img--kadabra {
-  border-bottom: solid #000 15px;
-}
-
 .card__tag {
   padding: 4px 8px;
   border-radius: 4px;
