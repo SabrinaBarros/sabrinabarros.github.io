@@ -10,8 +10,8 @@ const Projects = () => {
         name="Site Pessoal"
         imagePath="img/projects/website.png"
         tag="app"
-        gitHubURL="https://github.com/SabrinaBarros/pomodoroTimer?tab=readme-ov-file"
-        demoURL="https://sabrinabarros.github.io/pomodoroTimer/"
+        gitHubURL="https://github.com/SabrinaBarros/sabrinabarros.github.io"
+        demoURL="/"
         description="🌈Esse maravilhoso Website.✨"
       />
 
@@ -37,7 +37,7 @@ const Projects = () => {
         name="Kadabra"
         imagePath="img/projects/kadabra.png"
         tag="cli"
-        gitHubURL="https://github.com/SabrinaBarros/pomodoroTimer?tab=readme-ov-file"
+        gitHubURL="https://github.com/SabrinaBarros/kadabra"
         description="Projeto que utiliza a Cifra Vigenere para criptografar textos e senhas. É fácil de usar e fornece uma maneira segura de proteger informações confidenciais."
       />
 
