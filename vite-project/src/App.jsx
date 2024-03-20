@@ -1,4 +1,5 @@
 import Header from './components/Header/Header.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import About from './views/About/About.jsx'
 import Projects from './views/Projects/Projects.jsx'
 import {Routes, Route} from "react-router-dom"
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/projetos" element={<Projects/>}/>
       </Routes>
 
+      <Footer/>
     </>
   )
 }

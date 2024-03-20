@@ -1,0 +1,11 @@
+.footer {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: 'Unbounded', cursive;
+
+  text-align: center;
+  color: #333;
+
+  padding: 8px;
+  border-bottom: 8px solid #6653e4;
+}
