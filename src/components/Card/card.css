@@ -1,0 +1,103 @@
+.card {
+  font-family: 'Roboto';
+
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px #00000033;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 8px;
+  width: calc(25% - 16px);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: calc(33% - 16px);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.card__head {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  text-align: center;
+
+  margin: 16px 8px;
+  /* margin-bottom: 16px; */
+
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.card__img {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.card__tag {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 12px 0px 12px 8px;
+
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.card__tag--app {
+  background: #f72585;
+}
+
+.card__tag--boilerplate {
+  background: #48cae4;
+}
+
+.card__tag--cli {
+  background: #555c65;
+}
+
+.card__tag--library {
+  background: #ff5400;
+}
+
+.card__tag--wip {
+  background: #ffbe0b;
+}
+
+.card__text {
+  font-size: 16px;
+  color: #555c65;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+  margin: 8px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.card__footer {
+  margin-top: auto;
+  margin-bottom: 16px;
+}

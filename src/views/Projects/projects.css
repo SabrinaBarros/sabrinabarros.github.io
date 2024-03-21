@@ -1,0 +1,12 @@
+.projects {
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 1200px;
+
+  padding: 8px;
+  margin: 32px auto;
+}

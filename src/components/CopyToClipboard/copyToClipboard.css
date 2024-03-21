@@ -1,0 +1,29 @@
+.copy-to-clipboard-container {
+  position: relative;
+}
+
+.copy-to-clipboard__btn {
+  border: none;
+  background: none;
+  padding-top: 4px;
+  vertical-align: middle;
+}
+
+.copy-to-clipboard__btn:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.copyIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.copy-to-clipboard__tooltip {
+  color: #6653e4;
+  padding: 4px;
+  font-size: 12px;
+  position: absolute;
+  top: -30px;
+  right: -8px;
+}
