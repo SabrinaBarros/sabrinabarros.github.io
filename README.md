@@ -1,8 +1,10 @@
-# sabrinabarros.github.io
+# [sabrinabarros.github.io](https://sabrinabarros.github.io)
 
 My personal Website. 🚀
 
-This project was started with **Vite** and developed using **React** and **React Router**.
+![Website Layout](public/img/projects/website.png)
+
+This project was started with **Vite** and developed using **React ecosystem**.
 
 ## Development 🔧
 
@@ -11,7 +13,7 @@ This project was started with **Vite** and developed using **React** and **React
 - Clone this repository:
 
 ```shell
-$ git clone https://github.com/SabrinaBarros/sabrinabarros.github.io.git
+$ git clone git@github.com:<your-username>/kadabra.git
 ```
 ```shell
 $ cd sabrinabarros.github.io
@@ -31,7 +33,7 @@ $ npm run dev
 
 ## Contributing 💌
 
-If you would like to contribute to the project, feel free to check the [CONTRIBUTING](CONTRIBUTING.md) file for more information. 
+If you would like to contribute to the project, feel free to check the [contributing](CONTRIBUTING.md) file for more information.
 
 ## License 📃
 
