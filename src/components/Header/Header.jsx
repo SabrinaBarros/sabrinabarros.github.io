@@ -12,6 +12,7 @@ const Header = () => {
         <ul className="header__menu">
           <li className="menu__item"><NavLink to="/" title="Sobre" className={({isActive}) => isActive ? 'menu__item__link menu__item__link--current' : 'menu__item__link'}>Sobre</NavLink></li>
           <li className="menu__item"><NavLink to="/projetos" title="Projetos" className={({isActive}) => isActive ? 'menu__item__link menu__item__link--current' : 'menu__item__link'}>Projetos</NavLink></li>
+          <li className="menu__item"><NavLink to="/galeria" title="Galeria" className={({isActive}) => isActive ? 'menu__item__link menu__item__link--current' : 'menu__item__link'}>Galeria</NavLink></li>
         </ul>
       </nav>
 
